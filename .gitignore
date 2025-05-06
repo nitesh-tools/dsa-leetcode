@@ -40,6 +40,10 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+DocumentLayout.json
+**/*.vsidx
+**/*.dtbcache**
+**/*.suo
 
 # MSBuild Binary and Structured Log
 *.binlog
@@ -52,3 +56,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Backups
+**/*.backup.json
